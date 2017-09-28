@@ -1,6 +1,6 @@
 # Using Apache Kafka from CFML
 
-Examples of using apache kafka with cfml. 
+Examples of using apache kafka with cfml.
 
 ## Installation
 
@@ -29,7 +29,7 @@ Examples of using apache kafka with cfml.
 
 * Clone this repo, start server with commandbox:
 ```
-    cd kafka-cfml
+    cd cfml-kafka
     commandbox> start server libDir=lib
 ```
 * From the website, you can send messages to "mytopic" topic and you can see it in the kafka client console.
