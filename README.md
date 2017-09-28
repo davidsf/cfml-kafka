@@ -27,7 +27,7 @@ Examples of using apache kafka with cfml.
 
 ### CFML
 
-* Clone this repo, start server with commandbox:
+* Clone this repo, start server with [commandbox](https://www.ortussolutions.com/products/commandbox):
 ```
     cd cfml-kafka
     commandbox> start server libDir=lib
