@@ -22,7 +22,7 @@ Examples of using apache kafka with cfml.
 ```
 * start a console kafka client, so you can see the messages that we will send to it:
 ```
-  ./bin/kafka-topics.sh  --topic mytopic -zookeeper localhost:2181
+  ./bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic  mytopic --from-beginning
 ```
 
 ### CFML
