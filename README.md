@@ -32,4 +32,4 @@ Examples of using apache kafka with cfml.
     cd cfml-kafka
     commandbox> start server libDir=lib
 ```
-* From the website, you can send messages to "mytopic" topic and you can see it in the kafka client console.
+* From the website that opens commandbox, you can send messages to "mytopic" topic and you can see it in the kafka client console.
