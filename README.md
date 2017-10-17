@@ -30,6 +30,6 @@ Examples of using apache kafka with cfml.
 * Clone this repo, start server with [commandbox](https://www.ortussolutions.com/products/commandbox):
 ```
     cd cfml-kafka
-    commandbox> start server libDir=lib
+    commandbox> start server libDirs=lib
 ```
 * From the website that opens commandbox, you can send messages to "mytopic" topic and you can see it in the kafka client console.
